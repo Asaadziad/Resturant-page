@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: large;
+  background-color: #b4c4ae;
+}
+.main {
+  background-color: #e5e8b6;
+  margin: 32px auto;
+  border-radius: 16px;
+  width: 800px;
+  height: 800px;
+}
+#header {
+  background-color: #e5e8b6;
+  color: #586994;
+  padding: 32px;
+}
+#header nav {
+  position: absolute;
+  float: right;
+  right: 32px;
+  top: 48px;
+}
+#header nav ul li {
+  display: inline;
+  padding: 16px;
+}
+#header nav ul li a {
+  text-decoration: none;
+  color: #7d869c;
+}
+.active {
+  background-color: #fffff5;
+
+  padding: 12px;
+  border-radius: 5px;
+}

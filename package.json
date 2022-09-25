@@ -1,0 +1,19 @@
+{
+  "name": "resturantpage",
+  "version": "1.0.0",
+  "description": "resturant page project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Resturant-page"
+  },
+  "author": "Asaadziad",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
