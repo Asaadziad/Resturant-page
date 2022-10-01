@@ -1,11 +1,7 @@
-const pageLoad = () => {
-  //creating elements
-  const firstDiv = document.createElement("div");
-  firstDiv.setAttribute("class", "main");
+import { Home } from "./Home";
 
-  //main div
-  const content = document.getElementById("content");
-  content.appendChild(firstDiv);
+const pageLoad = () => {
+  Home();
 };
 
 export { pageLoad };
